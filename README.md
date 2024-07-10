@@ -16,7 +16,7 @@ This project provides a basic ERC20 token implementation named "MyToken" built w
     - Go to the Deploy & Run tab.
     - Select "Injected Web3" environment (assuming MetaMask is connected).
     - Choose the file for deployment.
-    - Set values for `initialSupply`, `name`, and `symbol`.
+    - Set values for `initialOwner`
     - Click "Deploy".
 
 ## Interaction (Remix)
@@ -24,10 +24,11 @@ This project provides a basic ERC20 token implementation named "MyToken" built w
 1. **Run Contract:** In the "Run" section, interact with the deployed contract:
     * Call `mint` (owner only) to mint tokens to other addresses.
     * Call `burn` to burn tokens from your own balance.
+    * Call `transfer` to transfer tokens from your address to other.
 
 ## Note
 
-This is a basic example. Consider adding features like transfers or a maximum token supply. Always test thoroughly before deploying on a live network.
+This is an assessment project.
 
 ## License
 
